@@ -1,6 +1,6 @@
 /* ===== SOMAA Website Scripts ===== */
 
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = 'https://somaa-backend.onrender.com/api'; // Update to your actual Render URL when available
 
 document.addEventListener('DOMContentLoaded', () => {
   // ===== Navbar Scroll Effect =====
