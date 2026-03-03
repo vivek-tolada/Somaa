@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Environment secrets
+.env
+
+# SQLite database files
+data/
+*.db
+*.db-shm
+*.db-wal
+
+# Log files
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

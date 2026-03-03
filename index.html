@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SOMAA – Luxury Dining & Live Music Restobar in Visakhapatnam</title>
+  <meta name="description"
+    content="SOMAA is Visakhapatnam's premier luxury restobar featuring Indian & multi-cuisine dining, signature tandoori, a premium bar, live music performances, and private event hosting at VIP Center, VIP Road.">
+  <meta name="keywords"
+    content="SOMAA, luxury restobar, Visakhapatnam, live music, Indian restaurant, bar, VIP Road, private events, tandoori, seafood">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+
+<body>
+
+  <!-- ===== Navigation ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="nav-logo">
+        <img src="images/logo.png" alt="SOMAA Logo">
+        <span class="nav-logo-text">SOMAA</span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#dining">Dining</a>
+        <a href="#bar">Bar</a>
+        <a href="#entertainment">Music</a>
+        <a href="#events">Events</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="nav-cta">
+        <a href="#" class="btn btn-primary" data-modal="reserve">
+          <span class="btn-icon">🍽️</span> Reserve a Table
+        </a>
+        <button class="btn-admin-login" id="btnAdminLogin" title="Admin Login">🔐</button>
+      </div>
+      <button class="nav-hamburger" id="navHamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== Hero Section ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="images/hero.png" alt="SOMAA luxury restobar interior">
+    </div>
+
+    <!-- Decorative orbs -->
+    <div class="glow-orb glow-red" style="top: 10%; right: -10%;"></div>
+    <div class="glow-orb glow-amber" style="bottom: 20%; left: -5%;"></div>
+
+    <div class="container hero-content">
+      <div class="hero-badge">
+        <span class="pulse"></span>
+        Open Now · 11:30 AM – 11:30 PM
+      </div>
+
+      <h1>
+        Luxury Dining &
+        <span class="hero-accent">Live Music</span>
+      </h1>
+
+      <p class="hero-desc">
+        Visakhapatnam's premier restobar blending multi-cuisine dining,
+        curated drinks, and live entertainment in a refined, atmospheric setting.
+      </p>
+
+      <div class="hero-ctas">
+        <a href="#" class="btn btn-primary" data-modal="reserve">
+          <span class="btn-icon">🍽️</span> Reserve a Table
+        </a>
+        <a href="#" class="btn btn-secondary" data-modal="party">
+          <span class="btn-icon">🎉</span> Plan Your Party
+        </a>
+      </div>
+
+      <div class="hero-trust">
+        <div class="trust-item">
+          <div class="trust-icon">⭐</div>
+          <div class="trust-info">
+            <div class="trust-rating">4.3 / 5</div>
+            <div class="trust-sub">Google · 7,600+ reviews</div>
+          </div>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon">⭐</div>
+          <div class="trust-info">
+            <div class="trust-rating">4.6 / 5</div>
+            <div class="trust-sub">Facebook · 900+ reviews</div>
+          </div>
+        </div>
+        <div class="trust-item hero-hours">
+          <span class="dot"></span>
+          <span>Ranked among top restaurants in Visakhapatnam</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== About / Stats Section ===== -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="reveal">
+        <span class="section-label">Who We Are</span>
+        <h2 class="section-title">Where Flavour Meets <span class="accent">Atmosphere</span></h2>
+        <p class="section-subtitle">
+          SOMAA is a high-energy luxury restobar in the heart of Visakhapatnam,
+          designed for those who seek more than a meal — an experience defined by
+          world-class cuisine, signature drinks, and live performances every evening.
+        </p>
+      </div>
+
+      <div class="stats-grid reveal">
+        <div class="stat-card">
+          <div class="stat-number" data-count="7600" data-suffix="+">0</div>
+          <div class="stat-label">Google Reviews</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-count="900" data-suffix="+">0</div>
+          <div class="stat-label">Facebook Reviews</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-count="4" data-suffix=".3★">0</div>
+          <div class="stat-label">Average Rating</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-count="12" data-suffix=" hrs">0</div>
+          <div class="stat-label">Open Daily</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Services Offerings ===== -->
+  <section id="dining">
+    <div class="container">
+      <div class="reveal">
+        <span class="section-label">Our Offerings</span>
+        <h2 class="section-title">Crafted for <span class="accent">Every Sense</span></h2>
+        <p class="section-subtitle">
+          From signature tandoori to live music nights — each element at SOMAA is curated
+          to deliver an elevated evening experience.
+        </p>
+      </div>
+
+      <div class="offerings-grid">
+        <!-- Dining -->
+        <div class="offering-card reveal">
+          <img src="images/dining.png" alt="SOMAA dining experience with tandoori and seafood specialties">
+          <div class="card-overlay"></div>
+          <div class="card-content">
+            <div class="card-icon">🍽️</div>
+            <h3>Dining Experience</h3>
+            <p>
+              Multi-cuisine menu featuring Indian classics, signature tandoori dishes,
+              fresh seafood, and desserts. Vegan options available.
+            </p>
+            <div class="card-tags">
+              <span class="card-tag">Indian & Multi-Cuisine</span>
+              <span class="card-tag">Tandoori Specials</span>
+              <span class="card-tag">Seafood</span>
+              <span class="card-tag">Lunch & Dinner</span>
+              <span class="card-tag">Dine-in</span>
+              <span class="card-tag">Takeaway</span>
+              <span class="card-tag">Delivery</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bar -->
+        <div class="offering-card reveal" id="bar">
+          <img src="images/bar.png" alt="SOMAA premium bar with cocktails, beer and wine">
+          <div class="card-overlay"></div>
+          <div class="card-content">
+            <div class="card-icon">🥃</div>
+            <h3>Bar & Beverages</h3>
+            <p>
+              Full-service premium bar with curated selections of beer, wine,
+              liqueurs, and house specials in a social evening atmosphere.
+            </p>
+            <div class="card-tags">
+              <span class="card-tag">Beer</span>
+              <span class="card-tag">Wine</span>
+              <span class="card-tag">Liqueurs</span>
+              <span class="card-tag">Premium Cocktails</span>
+              <span class="card-tag">Evening Social</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Live Entertainment Section ===== -->
+  <section class="experience" id="entertainment">
+    <div class="container">
+      <div class="experience-grid">
+        <div class="experience-image reveal-left">
+          <img src="images/music.png" alt="Live band performing at SOMAA restobar">
+        </div>
+        <div class="experience-text reveal-right">
+          <span class="section-label">Live Entertainment</span>
+          <h3>Music That Sets the <span class="accent">Mood</span></h3>
+          <p>
+            SOMAA is more than dining — it's a live experience. Our regular band
+            performances blend English hits and Telugu favourites into energetic
+            evenings designed for connection, celebration, and memory.
+          </p>
+          <div class="experience-features">
+            <div class="experience-feature">
+              <span class="feature-dot"></span>
+              <span>Regular live band performances</span>
+            </div>
+            <div class="experience-feature">
+              <span class="feature-dot"></span>
+              <span>English & Telugu music nights</span>
+            </div>
+            <div class="experience-feature">
+              <span class="feature-dot"></span>
+              <span>Energetic evening ambience every day</span>
+            </div>
+            <div class="experience-feature">
+              <span class="feature-dot"></span>
+              <span>Perfect for social evenings & celebrations</span>
+            </div>
+          </div>
+          <a href="#" class="btn btn-primary" data-modal="reserve">
+            <span class="btn-icon">🎵</span> Book Your Evening
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Gallery / Ambience ===== -->
+  <section id="ambience">
+    <div class="container">
+      <div class="reveal" style="text-align:center;">
+        <span class="section-label">The Ambience</span>
+        <h2 class="section-title">Step Into <span class="accent">SOMAA</span></h2>
+        <p class="section-subtitle" style="margin:0 auto 2rem;">
+          A premium setting where warm lighting, refined interiors, and live
+          energy come together on the 4th floor of VIP Center.
+        </p>
+      </div>
+
+      <div class="gallery-row reveal">
+        <div class="gallery-item">
+          <img src="images/interior.png" alt="SOMAA dining interior">
+        </div>
+        <div class="gallery-item">
+          <img src="images/hero.png" alt="SOMAA lounge seating">
+        </div>
+        <div class="gallery-item">
+          <img src="images/bar.png" alt="SOMAA bar area">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Private Events CTA ===== -->
+  <section class="events-section" id="events">
+    <div class="events-bg">
+      <img src="images/party.png" alt="Private party at SOMAA">
+    </div>
+    <div class="container">
+      <div class="events-content reveal">
+        <span class="section-label">Private Events</span>
+        <h2 class="section-title">Celebrate at <span class="accent">SOMAA</span></h2>
+        <p class="section-subtitle">
+          Dedicated party space for birthdays, group celebrations, corporate gatherings,
+          and social events — elevated by live music and premium service.
+        </p>
+
+        <div class="events-features">
+          <div class="event-feature">
+            <span class="ef-icon">🎂</span>
+            <span>Birthday Celebrations</span>
+          </div>
+          <div class="event-feature">
+            <span class="ef-icon">👥</span>
+            <span>Group Gatherings</span>
+          </div>
+          <div class="event-feature">
+            <span class="ef-icon">🏢</span>
+            <span>Corporate Events</span>
+          </div>
+          <div class="event-feature">
+            <span class="ef-icon">🎤</span>
+            <span>Live Music Add-on</span>
+          </div>
+        </div>
+
+        <div class="events-ctas">
+          <a href="#" class="btn btn-primary" data-modal="party">
+            <span class="btn-icon">🎉</span> Enquire Now
+          </a>
+          <a href="#" class="btn btn-secondary" data-modal="contact">
+            <span class="btn-icon">💬</span> Send a Message
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Trust / Info Section ===== -->
+  <section id="info">
+    <div class="container">
+      <div class="reveal" style="text-align:center;">
+        <span class="section-label">Why SOMAA</span>
+        <h2 class="section-title">Designed for <span class="accent">Your Comfort</span></h2>
+      </div>
+
+      <div class="info-grid reveal">
+        <div class="info-card">
+          <div class="info-icon">📍</div>
+          <h4>Premium Location</h4>
+          <p>4th Floor, VIP Center on VIP Road — one of Visakhapatnam's most prominent commercial hubs.</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">🅿️</div>
+          <h4>Free Parking</h4>
+          <p>Complimentary parking available for all guests at VIP Center, so you arrive stress-free.</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">♿</div>
+          <h4>Wheelchair Accessible</h4>
+          <p>Full accessibility to ensure every guest enjoys the SOMAA experience comfortably.</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">💳</div>
+          <h4>All Cards Accepted</h4>
+          <p>Credit cards, debit cards, and digital payments accepted for seamless transactions.</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">🍽️</div>
+          <h4>Table Service</h4>
+          <p>Attentive table service throughout your visit — from ordering to farewell.</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">⭐</div>
+          <h4>8,500+ Reviews</h4>
+          <p>Trusted by thousands of guests across Google and Facebook. Consistently rated above 4 stars.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand -->
+        <div class="footer-brand">
+          <span class="nav-logo-text">SOMAA</span>
+          <p>
+            Visakhapatnam's luxury restobar combining premium dining,
+            curated drinks, live music, and private celebrations in
+            an upscale atmospheric setting.
+          </p>
+          <div class="footer-social">
+            <a href="#" class="social-link" aria-label="Instagram">📷</a>
+            <a href="#" class="social-link" aria-label="Facebook">📘</a>
+            <a href="#" class="social-link" aria-label="YouTube">🎬</a>
+            <a href="#" class="social-link" aria-label="Google Maps">📍</a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="#about">About SOMAA</a></li>
+            <li><a href="#dining">Dining Menu</a></li>
+            <li><a href="#bar">Bar & Drinks</a></li>
+            <li><a href="#entertainment">Live Music</a></li>
+            <li><a href="#events">Private Events</a></li>
+          </ul>
+        </div>
+
+        <!-- Hours -->
+        <div class="footer-col">
+          <h4>Hours</h4>
+          <ul>
+            <li><span>Monday – Sunday</span></li>
+            <li><span style="color: var(--gold);">11:30 AM – 11:30 PM</span></li>
+            <li><span style="margin-top: 0.5rem; display: inline-block;">Open all 7 days</span></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <div class="contact-item">
+            <span class="ci-icon">📞</span>
+            <a href="tel:+919211112666" style="color: var(--gold);">+91 92111 12666</a>
+          </div>
+          <div class="contact-item">
+            <span class="ci-icon">📍</span>
+            <span>4th Floor, VIP Center,<br>VIP Road, Visakhapatnam,<br>Andhra Pradesh, India</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 SOMAA. All rights reserved.</span>
+        <span>Luxury Dining & Live Music Restobar · Visakhapatnam</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== Modal: Admin Login ===== -->
+  <div class="modal-overlay" id="modal-adminlogin" role="dialog" aria-modal="true"
+    aria-labelledby="modal-adminlogin-title" hidden>
+    <div class="modal modal-login">
+      <button class="modal-close" aria-label="Close modal">&times;</button>
+      <div class="modal-header">
+        <div class="modal-icon-wrap">🔐</div>
+        <h2 id="modal-adminlogin-title">Admin Login</h2>
+        <p>SOMAA Staff Access Only</p>
+      </div>
+      <form id="form-adminlogin" novalidate>
+        <div class="form-group">
+          <label for="al-email">Email <span class="req">*</span></label>
+          <input type="email" id="al-email" name="email" placeholder="admin@somaa.in" required autocomplete="email">
+          <span class="form-error" id="al-email-err"></span>
+        </div>
+        <div class="form-group">
+          <label for="al-password">Password <span class="req">*</span></label>
+          <input type="password" id="al-password" name="password" placeholder="Your password" required
+            autocomplete="current-password">
+          <span class="form-error" id="al-password-err"></span>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full" id="btn-adminlogin-submit">
+          <span class="btn-label">Sign In</span>
+          <span class="btn-spinner" aria-hidden="true"></span>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ===== Admin Dashboard Panel ===== -->
+  <div id="admin-dashboard" class="admin-dashboard" hidden>
+    <div class="admin-dashboard-inner">
+      <!-- Header -->
+      <div class="admin-header">
+        <div class="admin-header-left">
+          <span class="admin-logo">⚙️ SOMAA Admin</span>
+          <span class="admin-user-badge" id="adminUserBadge"></span>
+        </div>
+        <div class="admin-header-right">
+          <button class="admin-refresh-btn" id="adminRefreshBtn" title="Refresh data">🔄 Refresh</button>
+          <button class="admin-logout-btn" id="adminLogoutBtn">Sign Out</button>
+        </div>
+      </div>
+
+      <!-- Stats Bar -->
+      <div class="admin-stats-bar" id="adminStatsBar">
+        <div class="admin-stat">
+          <span class="admin-stat-num" id="stat-reservations">–</span>
+          <span class="admin-stat-label">Reservations</span>
+        </div>
+        <div class="admin-stat">
+          <span class="admin-stat-num" id="stat-pending">–</span>
+          <span class="admin-stat-label">Pending</span>
+        </div>
+        <div class="admin-stat">
+          <span class="admin-stat-num" id="stat-parties">–</span>
+          <span class="admin-stat-label">Party Bookings</span>
+        </div>
+        <div class="admin-stat">
+          <span class="admin-stat-num" id="stat-inquiries">–</span>
+          <span class="admin-stat-label">Inquiries</span>
+        </div>
+        <div class="admin-stat">
+          <span class="admin-stat-num" id="stat-today">–</span>
+          <span class="admin-stat-label">Today</span>
+        </div>
+      </div>
+
+      <!-- Tabs -->
+      <div class="admin-tabs">
+        <button class="admin-tab active" data-tab="reservations">🍽️ Reservations</button>
+        <button class="admin-tab" data-tab="parties">🎉 Party Bookings</button>
+        <button class="admin-tab" data-tab="inquiries">💬 Inquiries</button>
+      </div>
+
+      <!-- Tab Panels -->
+      <div class="admin-tab-content">
+
+        <!-- Reservations Tab -->
+        <div id="tab-reservations" class="admin-panel active">
+          <div class="admin-panel-toolbar">
+            <input type="text" id="res-search" class="admin-search" placeholder="Search by name or phone…">
+            <select id="res-filter-status" class="admin-filter">
+              <option value="">All Statuses</option>
+              <option value="pending">Pending</option>
+              <option value="confirmed">Confirmed</option>
+              <option value="cancelled">Cancelled</option>
+              <option value="completed">Completed</option>
+            </select>
+          </div>
+          <div class="admin-table-wrap">
+            <table class="admin-table" id="table-reservations">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Phone</th>
+                  <th>Email</th>
+                  <th>Date</th>
+                  <th>Time</th>
+                  <th>Guests</th>
+                  <th>Status</th>
+                  <th>Special Requests</th>
+                  <th>Submitted</th>
+                </tr>
+              </thead>
+              <tbody id="tbody-reservations">
+                <tr>
+                  <td colspan="9" class="admin-loading">Loading…</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Party Bookings Tab -->
+        <div id="tab-parties" class="admin-panel">
+          <div class="admin-table-wrap">
+            <table class="admin-table" id="table-parties">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Phone</th>
+                  <th>Email</th>
+                  <th>Event Type</th>
+                  <th>Date</th>
+                  <th>Guests</th>
+                  <th>Status</th>
+                  <th>Priority</th>
+                  <th>Notes</th>
+                  <th>Submitted</th>
+                </tr>
+              </thead>
+              <tbody id="tbody-parties">
+                <tr>
+                  <td colspan="10" class="admin-loading">Loading…</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Inquiries Tab -->
+        <div id="tab-inquiries" class="admin-panel">
+          <div class="admin-table-wrap">
+            <table class="admin-table" id="table-inquiries">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Phone</th>
+                  <th>Message</th>
+                  <th>Source</th>
+                  <th>Submitted</th>
+                </tr>
+              </thead>
+              <tbody id="tbody-inquiries">
+                <tr>
+                  <td colspan="5" class="admin-loading">Loading…</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== Modal: Reserve a Table ===== -->
+  <div class="modal-overlay" id="modal-reserve" role="dialog" aria-modal="true" aria-labelledby="modal-reserve-title"
+    hidden>
+    <div class="modal">
+      <button class="modal-close" aria-label="Close modal">&times;</button>
+      <div class="modal-header">
+        <div class="modal-icon-wrap">🍽️</div>
+        <h2 id="modal-reserve-title">Reserve a Table</h2>
+        <p>We'll confirm your booking within 2 hours.</p>
+      </div>
+      <form id="form-reserve" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="r-name">Full Name <span class="req">*</span></label>
+            <input type="text" id="r-name" name="name" placeholder="Your name" maxlength="100" required
+              autocomplete="name">
+            <span class="form-error" id="r-name-err"></span>
+          </div>
+          <div class="form-group">
+            <label for="r-phone">Mobile Number <span class="req">*</span></label>
+            <input type="tel" id="r-phone" name="phone" placeholder="10-digit Indian number" maxlength="10" required
+              autocomplete="tel">
+            <span class="form-error" id="r-phone-err"></span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="r-email">Email <span class="opt">(optional)</span></label>
+          <input type="email" id="r-email" name="email" placeholder="your@email.com" autocomplete="email">
+          <span class="form-error" id="r-email-err"></span>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="r-date">Date <span class="req">*</span></label>
+            <input type="date" id="r-date" name="date" required>
+            <span class="form-error" id="r-date-err"></span>
+          </div>
+          <div class="form-group">
+            <label for="r-slot">Time Slot <span class="req">*</span></label>
+            <select id="r-slot" name="time_slot" required>
+              <option value="">Select time</option>
+            </select>
+            <span class="form-error" id="r-slot-err"></span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="r-guests">Number of Guests <span class="req">*</span></label>
+          <input type="number" id="r-guests" name="guests" min="1" max="30" placeholder="1 – 30" required>
+          <span class="form-error" id="r-guests-err"></span>
+        </div>
+        <div class="form-group">
+          <label for="r-requests">Special Requests <span class="opt">(optional)</span></label>
+          <textarea id="r-requests" name="special_requests" maxlength="500"
+            placeholder="Allergies, occasion, seating preference…" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full" id="btn-reserve-submit">
+          <span class="btn-label">Confirm Reservation</span>
+          <span class="btn-spinner" aria-hidden="true"></span>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ===== Modal: Plan Your Party ===== -->
+  <div class="modal-overlay" id="modal-party" role="dialog" aria-modal="true" aria-labelledby="modal-party-title"
+    hidden>
+    <div class="modal">
+      <button class="modal-close" aria-label="Close modal">&times;</button>
+      <div class="modal-header">
+        <div class="modal-icon-wrap">🎉</div>
+        <h2 id="modal-party-title">Plan Your Party</h2>
+        <p>Our events team will reach you within 24 hours.</p>
+      </div>
+      <form id="form-party" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="p-name">Full Name <span class="req">*</span></label>
+            <input type="text" id="p-name" name="name" placeholder="Your name" maxlength="100" required
+              autocomplete="name">
+            <span class="form-error" id="p-name-err"></span>
+          </div>
+          <div class="form-group">
+            <label for="p-phone">Mobile Number <span class="req">*</span></label>
+            <input type="tel" id="p-phone" name="phone" placeholder="10-digit Indian number" maxlength="10" required
+              autocomplete="tel">
+            <span class="form-error" id="p-phone-err"></span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="p-email">Email <span class="opt">(optional)</span></label>
+          <input type="email" id="p-email" name="email" placeholder="your@email.com" autocomplete="email">
+          <span class="form-error" id="p-email-err"></span>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="p-type">Event Type <span class="req">*</span></label>
+            <select id="p-type" name="event_type" required>
+              <option value="">Select type</option>
+              <option value="birthday">🎂 Birthday</option>
+              <option value="corporate">🏢 Corporate</option>
+              <option value="social">👥 Social Gathering</option>
+              <option value="other">✨ Other</option>
+            </select>
+            <span class="form-error" id="p-type-err"></span>
+          </div>
+          <div class="form-group">
+            <label for="p-date">Preferred Date <span class="req">*</span></label>
+            <input type="date" id="p-date" name="preferred_date" required>
+            <span class="form-error" id="p-date-err"></span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="p-guests">Expected Guests <span class="req">*</span></label>
+          <input type="number" id="p-guests" name="guest_count" min="1" max="500" placeholder="1 – 500" required>
+          <span class="form-error" id="p-guests-err"></span>
+        </div>
+        <div class="form-group">
+          <label for="p-notes">Additional Notes <span class="opt">(optional)</span></label>
+          <textarea id="p-notes" name="notes" maxlength="1000"
+            placeholder="Theme, decoration preferences, any special requirements…" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full" id="btn-party-submit">
+          <span class="btn-label">Submit Party Enquiry</span>
+          <span class="btn-spinner" aria-hidden="true"></span>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ===== Modal: Contact / Inquire ===== -->
+  <div class="modal-overlay" id="modal-contact" role="dialog" aria-modal="true" aria-labelledby="modal-contact-title"
+    hidden>
+    <div class="modal">
+      <button class="modal-close" aria-label="Close modal">&times;</button>
+      <div class="modal-header">
+        <div class="modal-icon-wrap">💬</div>
+        <h2 id="modal-contact-title">Send Us a Message</h2>
+        <p>We'll get back to you shortly.</p>
+      </div>
+      <form id="form-contact" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="c-name">Full Name <span class="req">*</span></label>
+            <input type="text" id="c-name" name="name" placeholder="Your name" maxlength="100" required
+              autocomplete="name">
+            <span class="form-error" id="c-name-err"></span>
+          </div>
+          <div class="form-group">
+            <label for="c-phone">Mobile Number <span class="opt">(optional)</span></label>
+            <input type="tel" id="c-phone" name="phone" placeholder="10-digit Indian number" maxlength="10"
+              autocomplete="tel">
+            <span class="form-error" id="c-phone-err"></span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="c-message">Your Message <span class="req">*</span></label>
+          <textarea id="c-message" name="message" maxlength="1000" placeholder="How can we help you?" rows="5"
+            required></textarea>
+          <span class="form-error" id="c-message-err"></span>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full" id="btn-contact-submit">
+          <span class="btn-label">Send Message</span>
+          <span class="btn-spinner" aria-hidden="true"></span>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ===== Toast Notification ===== -->
+  <div class="toast" id="toast" role="alert" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
